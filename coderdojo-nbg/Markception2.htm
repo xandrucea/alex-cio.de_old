@@ -1,0 +1,1227 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body .markdown-body {
+    padding: 45px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    word-wrap: break-word;
+}
+
+pre {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background-color: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body input {
+  font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.markdown-body a {
+  color: #4078c0;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body .select::-ms-expand {
+  opacity: 0;
+}
+
+.markdown-body .octicon {
+  font: normal normal normal 16px/1 octicons-anchor;
+  display: inline-block;
+  text-decoration: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.markdown-body .octicon-link:before {
+  content: '\f05c';
+}
+
+.markdown-body:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body .anchor {
+  display: inline-block;
+  padding-right: 2px;
+  margin-left: -18px;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: #000;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h1 .anchor {
+  line-height: 1;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 .anchor {
+  line-height: 1;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h3 .anchor {
+  line-height: 1.2;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h4 .anchor {
+  line-height: 1.2;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h5 .anchor {
+  line-height: 1.1;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body h6 .anchor {
+  line-height: 1.1;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: #fff;
+}
+
+.markdown-body code {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body .pl-c {
+  color: #969896;
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: #0086b3;
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: #795da3;
+}
+
+.markdown-body .pl-s .pl-s1,
+.markdown-body .pl-smi {
+  color: #333;
+}
+
+.markdown-body .pl-ent {
+  color: #63a35c;
+}
+
+.markdown-body .pl-k {
+  color: #a71d5d;
+}
+
+.markdown-body .pl-pds,
+.markdown-body .pl-s,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sra,
+.markdown-body .pl-sr .pl-sre {
+  color: #183691;
+}
+
+.markdown-body .pl-v {
+  color: #ed6a43;
+}
+
+.markdown-body .pl-id {
+  color: #b52a1d;
+}
+
+.markdown-body .pl-ii {
+  background-color: #b52a1d;
+  color: #f8f8f8;
+}
+
+.markdown-body .pl-sr .pl-cce {
+  color: #63a35c;
+  font-weight: bold;
+}
+
+.markdown-body .pl-ml {
+  color: #693a17;
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  color: #1d3e81;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mq {
+  color: #008080;
+}
+
+.markdown-body .pl-mi {
+  color: #333;
+  font-style: italic;
+}
+
+.markdown-body .pl-mb {
+  color: #333;
+  font-weight: bold;
+}
+
+.markdown-body .pl-md {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.markdown-body .pl-mi1 {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.markdown-body .pl-mdr {
+  color: #795da3;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mo {
+  color: #1d3e81;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body .plan-price-unit {
+  color: #767676;
+  font-weight: normal;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 0.35em 0.25em -1.6em;
+  vertical-align: middle;
+}
+
+.markdown-body .plan-choice {
+  padding: 15px;
+  padding-left: 40px;
+  display: block;
+  border: 1px solid #e0e0e0;
+  position: relative;
+  font-weight: normal;
+  background-color: #fafafa;
+}
+
+.markdown-body .plan-choice.open {
+  background-color: #fff;
+}
+
+.markdown-body .plan-choice.open .plan-choice-seat-breakdown {
+  display: block;
+}
+
+.markdown-body .plan-choice-free {
+  border-radius: 3px 3px 0 0;
+}
+
+.markdown-body .plan-choice-paid {
+  border-radius: 0 0 3px 3px;
+  border-top: 0;
+  margin-bottom: 20px;
+}
+
+.markdown-body .plan-choice-radio {
+  position: absolute;
+  left: 15px;
+  top: 18px;
+}
+
+.markdown-body .plan-choice-exp {
+  color: #999;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.markdown-body .plan-choice-seat-breakdown {
+  margin-top: 10px;
+  display: none;
+}
+
+.markdown-body :checked+.radio-label {
+  z-index: 1;
+  position: relative;
+  border-color: #4078c0;
+}
+</style><title>Markception</title></head><body><article class="markdown-body"><p><a href="/Users/alex.cio/Work/Development/Websites/alexcio/qwfponv/images/coderdojo.png" target="_blank"><img src="/Users/alex.cio/Work/Development/Websites/alexcio/qwfponv/images/coderdojo.png" alt="CoderDojo Titel" style="max-width:100%;"></a>{width=80%}</p>
+
+<h1>
+<a id="user-content-programmieren-mit-phaser" class="anchor" href="#programmieren-mit-phaser" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Programmieren mit Phaser</h1>
+
+<h2>
+<a id="user-content-1-was-wird-programmiert" class="anchor" href="#1-was-wird-programmiert" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>1 Was wird programmiert</h2>
+
+<p>Es wird ein Reaktionsspiel erstellt, in dem man die ausgeschriebenen Farben anhand von farbigen Schaltflächen auswählen muss. Die geschriebene Form der Farbe soll ebenfalls in einer zufälligen Farbe angezeigt werden und sich immer wieder zufällig wechseln.</p>
+
+<p>Es wird ebenfalls ein Counter, eine Levelanzeige als auch die Anzahl der bereits richtig ausgewählten Farben im oberen Bereich des Spiels geben.</p>
+
+<p>Das Spiel soll am Ende ungefähr wie hier aussehen, am besten noch bunter!</p>
+
+<p><a href="/Users/alex.cio/Work/Development/Websites/alexcio/qwfponv/images/game_preview.png" target="_blank"><img src="/Users/alex.cio/Work/Development/Websites/alexcio/qwfponv/images/game_preview.png" alt="GameOverScreen" style="max-width:100%;"></a></p>
+
+<ol>
+<li>Startbildschirm</li>
+<li>Das ist ein Ausschnitt aus dem Spiel</li>
+<li>GameOver Screen</li>
+</ol>
+
+<h4>
+<a id="user-content-selbstgemacht" class="anchor" href="#selbstgemacht" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Selbstgemacht</h4>
+
+<p>Wem die Farben noch zu langeweilig sind, der kann selber ein quadrat auf ein Blatt malen und das fertige Muster als Bild einfügen. Wie das geht erfährt man ab dem 5. Abschnitt.</p>
+
+<h2>
+<a id="user-content-2-benötigte-werkzeuge" class="anchor" href="#2-ben%C3%B6tigte-werkzeuge" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2 Benötigte Werkzeuge</h2>
+
+<p>Das Spiel wird am Ende in einem Browser laufen und somit auf dem PC als auch auf dem Smartphone verfügbar sein. Wie auch alle anderen Websites wird auch für dieses Projekt HTML, CSS und JavaScript verwendet. Der größte Teil, das Spiel selbst, wird in JavaScript erstellt. </p>
+
+<h4>
+<a id="user-content-21-was-für-software-braucht-man" class="anchor" href="#21-was-f%C3%BCr-software-braucht-man" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2.1 Was für Software braucht man</h4>
+
+<p>Für den CoderDojo wird eine Lösung gewählt die keine Installation braucht. Alles findet im Internet statt. Das Gute dabei ist, dass man auch später mit seinem eigenen PC direkt auf sein Projekt zugreifen und weiter machen kann. 
+Um die Entwicklungsumgebung für das Spiel vorzubereiten muss man folgende Schritte nacheinander durchführen:</p>
+
+<ol>
+<li><p>Erstellt ein Profil auf der Website von Cloud9 (<a href="https://c9.io/signup">http://c9.io/signup</a>)<br>
+(Solltest man bereits einen Account bei <a href="http://github.com">GitHub</a> besitzen, so kannst man diesen verwenden um sich auf <b>Cloud9</b> anzumelden.)</p></li>
+<li><p>Nach der Anmeldung wird man zum Profil weitergeleitet. Dieses sollte wie auf folgendem Bild aussehen: 
+<a href="/Users/alex.cio/Work/Development/Websites/alexcio/qwfponv/images/cloud9_workspace_setup.png" target="_blank"><img src="/Users/alex.cio/Work/Development/Websites/alexcio/qwfponv/images/cloud9_workspace_setup.png" alt="Cloud9" style="max-width:100%;"></a>{width=350px}</p></li>
+<li><p>Füge einen neuen Workspace über die graue Schaltfläche hinzu ( "Create a new workspace" )</p></li>
+<li>
+<p>Nun müssen in einem letzten Schritt noch einige Daten angegeben werden. </p>
+
+<p><b>1</b> Workspace name 
+ <b>2</b> Description name
+ <b>3</b> Die Adresse für Phaser das wir für unser Spiel brauchen
+            <a href="https://github.com/photonstorm/phaser.git">https://github.com/photonstorm/phaser.git</a>
+ <b>4</b> Wähle HTML aus, da alle Elemente im Browser angezeigt werden.
+<br> <a href="/Users/alex.cio/Work/Development/Websites/alexcio/qwfponv/images/workspace_details.png" target="_blank"><img src="/Users/alex.cio/Work/Development/Websites/alexcio/qwfponv/images/workspace_details.png" alt="workspace_details" style="max-width:100%;"></a>{width=450px}</p>
+</li>
+</ol>
+
+<p>Wer eine eigene Website besitzt, der findet auf <a href="https://phaser.io/tutorials/getting-started/part2">folgender Website</a> eine genaue Anleitung wie man Phaser auf dem eigenen Computer zum laufen bringt.</p>
+
+<h4>
+<a id="user-content-22-das-projekt" class="anchor" href="#22-das-projekt" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2.2 Das Projekt</h4>
+
+<p>... sollte man nun folgenden Bildschirm vor sich sehen. 
+Wichtig ist, dass ihr mehrere Ordner aufgelistet bekommt die Phaser beinhalten.
+<a href="/Users/alex.cio/Work/Development/Websites/alexcio/qwfponv/images/cloud9_ide_start.png" target="_blank"><img src="/Users/alex.cio/Work/Development/Websites/alexcio/qwfponv/images/cloud9_ide_start.png" alt="Die Entwicklungsumgebung zu Beginn" style="max-width:100%;"></a>{width=80%}</p>
+
+<h2>
+<a id="user-content-3-beschreibung-der-werkzeuge" class="anchor" href="#3-beschreibung-der-werkzeuge" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>3. Beschreibung der Werkzeuge</h2>
+
+<p>Jeder Programmiersprache die es gibt, besitzt bereits vorhandene Funktionen die einem z.B. helfen, Aufgaben zu berechnen oder das Aussehen von der Oberfläche zu ändern. Man beginnt somit nicht ganz am Anfang und muss nicht alles komplett alleine neu programmieren. Es gilt viel mehr diese vorhandenen Funktionen zu verwenden um seine eigene Idee umzusetzen.</p>
+
+<p>Unser Spiel wird im Browser laufen und mit Hilfe von HTML, CSS und Javascrit umgesetzt. HTML ist dazu da, zu beschreiben was für ein Inhalt auf einer Website erscheinen wird. Hier werden Texte, Bilder, Verlinkungen und andere Inhalte eingefügt. CSS lässt uns Elemente äußerlich verändern (Wird in diesem Projekt nicht verwendet). JavaScript ist dafür zuständig, dass die Seite Funktionalität bekommt. Menüs die sich öffnen, Passwörter die miteinander verglichen werden oder eben wie in unserem (Bei-) Spiel!</p>
+
+<h3>
+<a id="user-content-was-ist-phaser" class="anchor" href="#was-ist-phaser" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Was ist Phaser</h3>
+
+<p>JavaScript bietet die Funktionalität die man benötigen um ein Spiel zu bauen. Bei Phaser wiederum wurden die von JavaScript bereits vorhandenen Funktionen verwendet um neue Funktionen zu bauen die beim Programmieren von Spielen viel Arbeit ersparen. Einfacher gesagt, etwas das normalerweise 6 Zeilen brauchen würde, braucht nun nur 1 Zeile durch Phaser. Ihr schreibt diese eine Zeile und im Hintergrund werden durch Phaser die entsprechenden 6 Zeilen ausgeführt.</p>
+
+<hr>
+
+<h2>
+<a id="user-content-4-das-grundgerüst-des-spiels" class="anchor" href="#4-das-grundger%C3%BCst-des-spiels" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>4. Das Grundgerüst des Spiels</h2>
+
+<p>Nun ist die Entwicklungsumgebung aufgesetzt, der Bildschirm mit den Ordnern ( links ) und dem leeren schwarzen Hintergrund. Damit man etwas programmieren kann, braucht man eine Datei. Zuerst braucht man eine HTML-Datei, durch die dann das Spiel aufgerufen werden kann. </p>
+
+<p>Dazu wählt man den Hauptordner des Projekts <b>mit rechtsklick</b> an und fügt eine neue Datei hinzu. Diese benennt man mit dem Namen <b>"index.html"</b>.</p>
+
+<p><b><i>WICHTIG: <br>Achtet darauf die Dateinamen richtig zu schreiben (Groß- und Kleinschreibung wird auch beachtet). Ist der Name falsch, so kann es sein, dass man später eine Datei nicht aufrufen kann, weil man z.B. statt einem kleinen einen großen Buchstaben gewählt hat.<br>
+Verschreibt man sich bei den Endungen, so kann es sein, dass diese Dateien gar nicht richtig ausgeführt werden können. Die wichtigsten Endungen die in diesem Projekt verwenden werden sind <b>".html"</b> und <b>".js"</b>.</i></b></p>
+
+<p><a href="/Users/alex.cio/Work/Development/Websites/alexcio/qwfponv/images/cloud9_ide_add_file.png" target="_blank"><img src="/Users/alex.cio/Work/Development/Websites/alexcio/qwfponv/images/cloud9_ide_add_file.png" alt="Cloud9 add file" style="max-width:100%;"></a>{width=70%}</p>
+
+<h3>
+<a id="user-content-41-die-website-die-das-spiel-aufruft" class="anchor" href="#41-die-website-die-das-spiel-aufruft" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>4.1 Die Website die das Spiel aufruft</h3>
+
+<p>Bevor man beginnen kann, das Spiel mit Phaser in Javascript zu erstellen, benötigt man eine einfache Webseite. Diese Webseite ruft das spätere Spiel auf. Das Spiel selbst wird in einer JavaScript Datei liegen. Diese kann jedoch ohne eine Webseite nicht ausgeführt werden.</p>
+
+<h4>
+<a id="user-content-die-folgenden-zeilen-sind-die-basis-für-jede-website" class="anchor" href="#die-folgenden-zeilen-sind-die-basis-f%C3%BCr-jede-website" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Die folgenden Zeilen sind die Basis für jede Website:</h4>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+
+    &lt;/head&gt;
+    &lt;body&gt;
+
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>Der Bereich zwischen den <b>head-Klammern</b> wird verwendet, um Titel, Verknüpfungen zu anderen Dateien und andere Attribute für die Website zu definieren. Es sind alles informationen die man nicht direkt angezeigt bekommt wenn man eine Website aufruft. Hier werden auch die Verknüpfungen zum Spiel gelegt</p>
+
+<pre><code>&lt;title&gt;Mein 1. Spiel&lt;/title&gt;
+
+&lt;script type="text/javascript" src="js/game.js" &gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="v2/build/phaser.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<p>Der Bereich zwischen den <b>body-Klammern</b> wird verwendet um den Inhalt zu beschreiben. Hier kommen normalerweise Inhalte hin. Da jedoch Phaser für dieses Projekt verwendet wird, bleibt dieser Teil in diesem Fall leer.</p>
+
+<h3>
+<a id="user-content-42-die-datei-in-die-das-spiel-kommt" class="anchor" href="#42-die-datei-in-die-das-spiel-kommt" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>4.2 Die Datei in die das Spiel kommt</h3>
+
+<p>Damit man anfangen kan die Ideen zu programmieren, braucht man einen Platz an dem man etwas schreiben kann. Dafür erstellt man zunächst eine Datei mit dem Namen <b>"game.js"</b>. </p>
+
+<p>In diese müsst ihr nun folgende Zeilen schreiben:</p>
+
+<pre><code>window.onload = function(){
+
+    // 1. Variablen
+
+    // 2. Das Spiel
+
+    // 3. Die Zustände des Spiels ( Anfangsbildschirm, Spielansicht )
+
+}
+</code></pre>
+
+<p>Dieser Block wird in den nächsten Schritten erweitert.</p>
+
+<h2>
+<a id="user-content-5-die-ersten-zeilen-logik" class="anchor" href="#5-die-ersten-zeilen-logik" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>5. Die ersten Zeilen Logik</h2>
+
+<p>Damit man die nächsten Aufgabe mitmachen kann, müssen zwei weitere Bild-Dateien zum Projekt hinzugefügt werden. Damit man nicht alle Dateien lose verteilt hat, sollte man sich einen Ordner für die Bilder anlegen. Die Bilder werden dir gestellt.</p>
+
+<p><a href="/Users/alex.cio/Work/Development/Websites/alexcio/qwfponv/images/project_setup.png" target="_blank"><img src="/Users/alex.cio/Work/Development/Websites/alexcio/qwfponv/images/project_setup.png" alt="Bilderverzeichnis im Projekt" style="max-width:100%;"></a>{width=300px}</p>
+
+<p>Nun kann man immer direkt auf die Bilder im Ordner <b>"images"</b> zugreifen und muss nicht lange suchen.</p>
+
+<h3>
+<a id="user-content-51-wir-erstellen-das-spiel" class="anchor" href="#51-wir-erstellen-das-spiel" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>5.1 Wir erstellen das Spiel</h3>
+
+<p>Bevor man etwas zum Spiel hinzufügen kann ( z.B. Texte und Bilder ), muss man erstmal ein Spiel erstellen. Schreibe die folgende Zeilen in den Bereich <b>"// 1. Variablen"</b> den wir im letzten Kapitel definiert haben.</p>
+
+<pre><code>var game = new Phaser.Game(500, 500);
+</code></pre>
+
+<p>Das ist das Objekt in dem sich bereits bestimmte Voreinstellungen zum Spiel befinden und dem noch weitere Eigenschaften hinzugefügt werden.
+Um einen Spielbereich zu definieren, fügt man bei den Platzhaltern <b>// 2. Das Spiel</b> folgende Zeilen hinzu:</p>
+
+<pre><code>var gameScreen = function(game){}
+gameScreen.prototype = {
+
+    // 1. Variablen
+
+    // 2. Vordefinierte / Eigene Methoden
+
+}
+</code></pre>
+
+<p>Jeder Spielbereich der dem Spiel wie zuvor hinzugefügt wird, muss in einem weiteren Schritt als Bereich festgelegt werden.</p>
+
+<pre><code>game.state.add("GameScreen", gameScreen);
+</code></pre>
+
+<p>Damit das Spiel weiß, dass es diese Ansicht wählen soll, wenn es aufgerufen wird, muss man noch einen Bereich festlegen an dem es starten soll.</p>
+
+<pre><code>game.state.start("GameScreen");
+</code></pre>
+
+<p>Wenn alles geklappt hat sollte man absofort ein schwarzes Spielfeld sehen, wenn man das Spiel aufruft. Dazu muss man die Website erstmal aktivieren. Dazu wählt man die Datei <b>index.html</b> auf und drückt am oberen Rand auf die grüne <b>"Run"</b> Schaltfläche</p>
+
+<p><a href="/Users/alex.cio/Work/Development/Websites/alexcio/qwfponv/images/cloud9_run_appindex.png" target="_blank"><img src="/Users/alex.cio/Work/Development/Websites/alexcio/qwfponv/images/cloud9_run_appindex.png" alt="Run website" style="max-width:100%;"></a>{width=500px}</p>
+
+<p>Falls man keine Fehler im Projekt hat, wird sich die Website aktivieren lassen und man kann in einem weiteren Schritt auf der Schaltfläche <b>"Preview"</b> die Anwendung in einem zusätzlichen Fenster aufrufen.</p>
+
+<p><a href="/Users/alex.cio/Work/Development/Websites/alexcio/qwfponv/images/cloud9_run_app.png" target="_blank"><img src="/Users/alex.cio/Work/Development/Websites/alexcio/qwfponv/images/cloud9_run_app.png" alt="Preview application" style="max-width:100%;"></a>{width=500px}</p>
+
+<h3>
+<a id="user-content-52-text-hinzufügen" class="anchor" href="#52-text-hinzuf%C3%BCgen" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>5.2 Text hinzufügen</h3>
+
+<p>In der Mitte des Spielfeldes wird ein Textfeld definiert, das am Anfang die Aufgabe beschreiben soll und nach dem Start des Spiels die jeweiligen Farben ausgeschrieben anzeigt. Damit man auf das Textfeld auch später noch zugreifen kann, wird dafür eine Variable definiert. Ein leerer Platzhalter der direkt zu Beginn eines Spielbereichs kommt.</p>
+
+<pre><code>gameScreen.prototype = {
+
+    // 1. Variablenbereich innerhalb eines Spielbereichs
+    textfeldFarbenText: null,
+</code></pre>
+
+<p>Für Prototypen gibt es bei Phaser mehrere vordefinierte Bereiche. Einer davon heißt <b>"create"</b> und wird erst ausgeführt, sobald Phaser bereit ist und alle anderen nötigen Ressourcen geladen hat.
+Diese Funktion wird folgendermaßen geschrieben</p>
+
+<pre><code>    // 2. Vordefinierte Methoden
+    create: function(){
+
+    },
+</code></pre>
+
+<p>Innerhalb dieser Klammern kann nun ein Textfeld zum Spiel hinzugefügt werden. Für das Textfeld müssen wir noch die Schrift genauer bestimmen und zuweisen, als auch die Position im Spielfeld belegen:</p>
+
+<pre><code>var styleTextFeld = {
+    font: "40px Monospace",
+    fill: "#ff7f00",
+    align: "center"
+}
+
+this.textfeldFarbenText = game.add.text(game.width / 2,
+                                        game.height / 2,
+                                        "Wähle die Farbe aus die du liest!",
+                                        styleTextFeld);
+this.textfeldFarbenText.anchor.set(0.5);
+</code></pre>
+
+<p>Das Textfeld besitzt 4 Attribute in folgender Reihenfolge: Position x, Position y, Text, Aussehen. Die darauf folgende Zeile bewirkt, dass das Textfeld genau mittig ausgerichtet wird. 
+Wenn man nun die Seite nachlädt, sollte man den Text mittig zentriert angezeigt bekommen.</p>
+
+<p>Damit wir später noch öfters mit der gleichen Schrift TextFelder erstellen können werden wir die Variable global definieren und direkt am Anfang der Datei, nach dem Spiel definieren</p>
+
+<pre><code>var game = new Phaser.Game(500, 500);
+var styleTextFeld;
+</code></pre>
+
+<p>Es würde in diesem Fall nicht zu Fehlern führen, allerdings ist es üblich, eine Variable nur an einem Ort zu definieren. Deshalb sollte man auch das <b>"var"</b> in den Zeilen zuvor entfernen und direkt auf die neue Variable zugreifen</p>
+
+<pre><code>styleTextFeld = {
+    font: "40px Monospace",
+    fill: "#ff7f00",
+    align: "center"
+}
+</code></pre>
+
+<h3>
+<a id="user-content-53-anzeigen-von-bildern" class="anchor" href="#53-anzeigen-von-bildern" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>5.3 Anzeigen von Bildern</h3>
+
+<p>Damit Bilder angezeigt werden können, muss zunächst die Bilddatei in einer Funktion vorgeladen werden damit es bereit ist, wenn darauf zugegriffen werden soll. Dazu muss eine weitere vordefinierte Funktion hinzugefügt werden. Diese sollte man am besten vor die Funktion <b>create</b> setzen da sie vor ihr ausgeführt wird:</p>
+
+<pre><code>preload: function(){
+
+
+},
+</code></pre>
+
+<p>In diesem Teil wird das Bild mit folgenden Zeilen geladen</p>
+
+<pre><code>game.load.spriteSheet("tiles_sprite",
+                      "images/tiles_sprite.png",
+                      50,
+                      50);
+</code></pre>
+
+<p>Damit wir später nicht immer wieder an allen Stellen die Größe ändern müssen wenn wir andere Werte probieren wollen, empfielt es sich dafür eine Variable zu erstellen, die man nur an einer Stelle belegt. Schreibt hierzu direkt unter die Variable unseres Spiels, eine Variable für die Höhe und Breite einer Kachel.</p>
+
+<pre><code>var game = Phaser.Game(500,500);
+var tileSize = 50;
+</code></pre>
+
+<p>Nun kann man die Zahlen durch das Wort <b>"tileSize"</b> ersetzen</p>
+
+<pre><code>game.load.spriteSheet("tiles_sprite",
+                      "images/tiles_sprite.png",
+                      tileSize,
+                      tileSize);
+</code></pre>
+
+<p>Da wir ein Farbenspiel machen wollen, wäre es auch gut den Hintergrund des Spielfeldes von schwarz in etwas buntes zu ändern. Man muss dazu noch folgende Zeile in die funktion <b>preload</b> einfügen</p>
+
+<pre><code>game.stage.backgroundColor = "#4f3370";
+</code></pre>
+
+<p>Beim Laden des Bildes sind folgende Attribute nacheinander zu belegen: Name mit dem man das Bild später wieder aufruft, Pfad des Bildes im Projekt, Bildbreite, Bildhöhe. Die Breite und Höhe bezieht sich jedoch auf die Höhe der einzelnen Kacheln die innerhalb des Bildes verteilt sind. Dadurch kann Phaser das Bild selbständig unterteilen und anhand von Nummern direkt aufrufen.</p>
+
+<p>In die zuvor erstellte Funktion <b>create</b> kann jetzt das Bild hinzugefügt werden. Dazu wird ein Button erstellt, der das Bild erhalten wird</p>
+
+<pre><code>var button = game.add.button(game.width / 2,
+                            game.height / 2 - 100,
+                            "tiles_sprite",
+                            this.buttonPress,
+                            this);                
+button.anchor.set(0.5);
+button.frame = 0;
+</code></pre>
+
+<p>Der Button wir erstellt, mittig positioniert und es wird die Nummer des Bildes gesetzt, das angezeigt werden soll</p>
+
+<p>Im Button wurde auch definiert was passieren soll, sobald er gedrückt wird. Da es diese Funktion noch nicht gibt, muss eine weitere mit dem Namen <b>"buttonPress"</b> erstellt werden. Diese wird direkt unter die Funktion "create" platziert</p>
+
+<pre><code>buttonPress: function(target){
+    console.log("Ich habe Bild Nr.: " + target.frame);
+}
+</code></pre>
+
+<p>Drückt man den Button, wird jedes Mal eine Nachricht in der Konsole des Browsers ausgegeben und beschreibt welche Bildnummer der Button besitzt.</p>
+
+<p>Diese Funktion unterscheidet sich von den beiden vorherigen, sie hat einen Wert innerhalb der Klammern, <b>"target"</b>. Das ist eine Referenz des Buttons. Hierdurch kann auf den Button und dessen Attribute zugegriffen werden. Unter <b>"frame"</b> ist der Wert als Zahl hinterlegt.</p>
+
+<h4>
+<a id="user-content-die-konsole-aufrufen" class="anchor" href="#die-konsole-aufrufen" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Die Konsole aufrufen</h4>
+
+<p>Die Konsole muss bei jeder Website erst geöffnet werden bevor man sie sehen kann. Dazu muss man auf der Website auf irgendeinen Bereich klicken und <b>Rechtsklick -&gt; Untersuchen</b> anwählen</p>
+
+<p>Normalerweise wird nun der Text der HTML-Datei angezeigt. Für die Konsole muss man den zweiten Reiter auswählen. Wählt man nun die einzelnen Farben erneut an, werden nach und nach einzelne Zeilen in der Konsole erscheinen und uns die entsprechenden Werte ausgeben</p>
+
+<p><a href="/Users/alex.cio/Work/Development/Websites/alexcio/qwfponv/images/open_console.png" target="_blank"><img src="/Users/alex.cio/Work/Development/Websites/alexcio/qwfponv/images/open_console.png" alt="Open Console" style="max-width:100%;"></a>{width=80%}</p>
+
+<h4>
+<a id="user-content-warum-hat-das-bild-die-nummer-0" class="anchor" href="#warum-hat-das-bild-die-nummer-0" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Warum hat das Bild die Nummer 0</h4>
+
+<p>Beim Programmieren beginnt man oft bei der Zahl 0 statt der 1. Ein Beispiel ist die Auswahl der einzelnen Kacheln innerhalb des Bildes "tiles_sprite.png". 0 ist die erste Kachel oben links in gelb. Deshalb ist die letzte Kachel unten rechts im Bild die Nummer 19, und nicht die Nummer 20.</p>
+
+<p>Es heißt nicht dass man immer bei 0 anfängt, aber hin und wieder sind manche Dinge so entworfen, dass sie bei 0 beginnen, oder es bietet sich an einen Anfangswert wie 0 zu haben, ein Punktestand zu Spielbeginn beispielsweise.
+Bei Zahlen nimmt man <b>"0"</b>, bei Objekten wie TextFeldern oder Buttons schreibt man <b>"null"</b>. </p>
+
+<p><a href="/Users/alex.cio/Work/Development/Websites/alexcio/qwfponv/images/tiles_sprite_index.png" target="_blank"><img src="/Users/alex.cio/Work/Development/Websites/alexcio/qwfponv/images/tiles_sprite_index.png" alt="Tiles index example" style="max-width:100%;"></a>{width=80%}</p>
+
+<h3>
+<a id="user-content-54-mehr-buttons-mit-schleifen" class="anchor" href="#54-mehr-buttons-mit-schleifen" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>5.4 Mehr Buttons mit Schleifen</h3>
+
+<p>Es gibt bisher nur eine Kachel zu sehen. Insgesamt gibt aber 20 von unserem Bild auswählen. Theoretisch wäre es möglich alle Buttons nacheinander hinzuzufügen. Man kann jedoch auch eine Schleife erzeugen, die diese Arbeit übernimmt. Eine normale Schleife sieht folgender Maßen aus</p>
+
+<pre><code>for ( var int i = 0; i &lt; 6; i++ ){
+
+}
+</code></pre>
+
+<p>Der Block ist in drei Bereiche aufgeteilt und durch Semikolons getrennt:</p>
+
+<pre><code>1. Eine Variable bei der wir beginnen
+2. Anzahl der Wiederholungen, hier wird es ausgeführt, so lange die Variable kleiner ist als 6
+3. Hochzählen der Variable +1 
+</code></pre>
+
+<p>Nun fügen wir die Zeilen die wir zuvor geschrieben haben in diese Schleife.</p>
+
+<pre><code>for ( var i = 0; i &lt; 6; i++ ){
+    var button = game.add.button(tileSize + i * 80,
+                                 game.height - 100,
+                                 "tiles_sprite",
+                                 this.buttonPress,
+                                 this);
+    button.anchor.set(0.5);
+    button.frame = i;
+}
+</code></pre>
+
+<p>Um zu überprüfen, ob alles richtig funktioniert hat, kann man den aktuellen Stand der Datei <b>"game.js"</b> im folgenden Codeblock vergleichen</p>
+
+<pre><code>window.onload = function(){
+
+    // 1. Variablen
+    var game = new Phaser.Game(500, 500);
+    var styleForText;
+    var tileSize = 50;
+
+
+    var gameScreen = function(game){}
+    gameScreen.prototype = {
+
+        textfeldFarbenText: null,
+
+        preload: function(){
+            game.load.spritesheet("tiles_sprite",
+                                  "images/tiles_sprite.png",
+                                  tileSize,
+                                  tileSize);
+            game.stage.backgroundColor = "#4f3370";
+        },
+
+        create: function(){
+
+
+
+            styleForText = {
+                font:"40px arial",
+                fill:"#ff7f00",
+                align:"center"
+            }
+
+            this.textfeldFarbenText = game.add.text(game.width / 2,
+                                                    game.height / 2,
+                                                    "Bereite dich vor",
+                                                    styleForText);
+            this.textfeldFarbenText.anchor.set(0.5);
+
+            for ( var i = 0; i &lt; 6; i++ ){
+                var button = game.add.button(tileSize + i * 80,
+                                             game.height - 100,
+                                             "tiles_sprite",
+                                             this.buttonPress,
+                                             this);
+                button.anchor.set(0.5);
+                button.frame = i;
+            }
+        },
+
+        buttonPress: function(target){
+           console.log("Ich habe Bild Nr.: " + target.frame);
+        }
+    }
+
+
+    // states
+    game.state.add("GameScreen", gameScreen);
+    game.state.start("GameScreen");   
+}
+</code></pre>
+
+<h2>
+<a id="user-content-6-arrays-und-bedingungen" class="anchor" href="#6-arrays-und-bedingungen" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>6. Arrays und Bedingungen</h2>
+
+<p>Damit das Textfeld die Farben als Text ausgeschrieben zeigt, müssen die Wörter für die verschiedenen Farben definiert werden. Außerdem soll sich auch die Farbe des Textes ändern, am besten ein zufälliger Wert. Hierzu definiert man direkt am Anfang der Klasse zwei neue Variablen, sogenannte <b>"Arrays"</b></p>
+
+<pre><code>var tileSize = 50;
+var arrayColorAsText = ["gelb", "orange", "rot", "rosa", "lila", "blau"];
+var arrayColorAsHex = ["#FD906C","#FAF06C", "#FDC46C", "#FD6CBD", "#CB6CFD", "6C90FD"];
+</code></pre>
+
+<p>Alle Werte müssen durch ein Komma getrennt werden. Jede einzelne Stelle kann über die jeweilige Position ausgesucht werden, wichtig ist hierbei nur, dass wir bei 0 zu zählen beginnen! Um rot zu erhalten, müsste man folgende Zeile eingeben</p>
+
+<pre><code>arrayColorAsText[2];
+</code></pre>
+
+<p>Das zweite Array besitzt die jeweiligen Farben die wir auch bereits am unteren Bereich durch Kachen verteilt haben. Im letzten Kapitel wurden die Farben durch Bilder belegt. In diesem Fall soll jedoch der Text in einem Textfeld geändert werden. Deshalb ist es notwendig die entsprechenden Farbwerte zu wissen. Ein Beispiel für verschiedene andere Werte kann man auf folgendem Bild sehen</p>
+
+<p><a href="/Users/alex.cio/Work/Development/Websites/alexcio/qwfponv/images/other_hex.png" target="_blank"><img src="/Users/alex.cio/Work/Development/Websites/alexcio/qwfponv/images/other_hex.png" alt="Hex Farbentabelle" style="max-width:100%;"></a>{width=80%}</p>
+
+<p>Die Werte sollen jeweils zufällig gewählt werden, sowohl der Text als auch die Farbe. Hierzu wird eine neue Funktion unter die bereits vorhandenen hinzugefügt </p>
+
+<pre><code>changeColorLabel: function(){
+        var randomTextSelect = game.rnd.integerInRange(0, arrayColorAsHex.length-1);
+        this.textfeldFarbenText.text = arrayColorAsText[randomTextSelect];
+
+        var randomColorSelect = game.rnd.integerInRange(0, arrayColorAsHex.length-1);
+        this.textfeldFarbenText.addColor(arrayColorAsHex[randomColorSelect], 0);                                            
+}
+</code></pre>
+
+<p>Wir generieren zunächst eine zufällig Zahl mit der Funktion</p>
+
+<pre><code>game.rnd.integerInRange(ZahlVon, ZahlBis)
+</code></pre>
+
+<p>dabei legt man einen Wertebereich fest, in dem eine Zufallszahl gebildet werden soll. Da auf die Werte im <b>arrayColorAsText</b> zugegriffen wird, beginnen wir bei <b>0</b> und hören am Ende des Arrays auf. Wie bereits erwähnt, bginnt man bei einem Array bei 0, wenn man den ersten Wert abrufen möchte. Man darf somit nicht die wirkliche Anzahl der Elemente in einem Array als Endwert nehmen, sondern muss diesen um 1 reduzieren</p>
+
+<pre><code>arrayColorAsHex.length - 1
+</code></pre>
+
+<p>In einem letzten Schritt wird der zufällige Wert ausgewählt</p>
+
+<pre><code>arrayColorAsText[randomTextSelect];
+</code></pre>
+
+<p>und dem Textfeld übergeben</p>
+
+<pre><code>this.textfeldFarbenText.text
+</code></pre>
+
+<p>Damit Der Text direkt zu Spielbeginn einen zufälliger Wert annimmt, muss man sowohl in der Funktion <b>create</b> und <b>buttonPress</b> einen Wert für die Farbe und den Text festlegen. Die zuvor erstellte Funktion ist genau für diese Aufgabe zuständig und kann mit einer Zeile aufgerufen werden</p>
+
+<pre><code>this.changeColorLabel();
+</code></pre>
+
+<h1>
+<a id="user-content-62-auswahl-überprüfen" class="anchor" href="#62-auswahl-%C3%BCberpr%C3%BCfen" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>6.2 Auswahl überprüfen</h1>
+
+<p>Jedes Mal, wenn ein Button ausgewählt wird, wechselt die Farbe und der Text beliebig, allerdings auch, wenn nicht die richtige Farbe ausgewählt wurde. Es ist deshalb wichtig, innerhalb der Funktion <code>buttonPress</code> zu prüfen, ob die Auswhahl richtig wahr. 
+Mit Hilfe der Variable <code>target</code>, erhält man Zugriff auf den gedrückten Button. Man muss nun die Werte des gedrückten Buttons mit denen des Textfeldes vergleichen</p>
+
+<pre><code>if( arrayColorAsText[target.frame] === this.labelColoredText.text ){
+    this.changeColorLabel();
+} else {
+    // falsche Farbe ausgewählt
+}
+</code></pre>
+
+<p>Mit Hilfe von <code>arrayColorAsText[target.frame]</code> erhält man die Farbe als Text für die entsprechende Farbnummer die im <code>frame</code> hinterlegt ist. Den Text kann man dann mit dem Text innerhalb des Textfeldes in der Mitte des Spielfeldes vergleichen. 
+ Ist der Wert richtig, ruft man die Funktion <code>changeColorLabel()</code> aus um die Werte für die nächste Auswahl zu ändern. Ist der ausgewählte Wert falsch, wird der Bereich in den Klammern nach dem <code>else</code> ausgeführt. Dieser wird im nächsten Teil ergänzt.</p>
+
+<h1>
+<a id="user-content-7-das-spiel-auf-zeit" class="anchor" href="#7-das-spiel-auf-zeit" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>7. Das Spiel auf Zeit</h1>
+
+<p>Nun werden die Farben richtig überprüft, allerdings gibt es noch keine Herausforderung. Um das Spiel schwerer zu machen, wird ein Zeitwert eingeführt der von Level zu Level niedriger wird und dem Spieler weniger Zeit zum nachdenken lässt.</p>
+
+<h2>
+<a id="user-content-71-zeit-speichern-und-herunterzählen" class="anchor" href="#71-zeit-speichern-und-herunterz%C3%A4hlen" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>7.1 Zeit speichern und herunterzählen</h2>
+
+<h2>
+<a id="user-content-72-funktion-um-spielfeld-zu-erstellen" class="anchor" href="#72-funktion-um-spielfeld-zu-erstellen" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>7.2 Funktion um Spielfeld zu erstellen</h2>
+
+<h1>
+<a id="user-content-8-das-ende-und-der-anfang-des-spiels" class="anchor" href="#8-das-ende-und-der-anfang-des-spiels" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>8. Das Ende und der Anfang des Spiels</h1>
+
+<h1>
+<a id="user-content-9-neue-spielvarianten" class="anchor" href="#9-neue-spielvarianten" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>9. Neue Spielvarianten</h1>
+</article></body></html>
