@@ -23,8 +23,14 @@
 		footer{
 			width:90%;
 			margin: 0 auto;
+
 			border: 1px solid #ccc;
-			background-color: #645188;
+			background: linear-gradient(to bottom right, #e0cda7, #645188);
+		}
+
+		footer p{
+			margin: 0;
+			padding: 20px;
 		}
 
 		.navbar .nav,
@@ -40,11 +46,77 @@
 		  text-align:center;
 		}
 
-		#appwindows{
-			/*min-height:350px; 
-			max-height:360px;
-			min-width:180px;
-			max-width:240px;*/
+		#box_yt{
+			width: 100%;
+			margin: 0 auto;
+			padding-top: 28%;
+			border: 1px solid #ccc;
+			background-position: left top;
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-color: #fff;
+			background-image: url("http://alex-cio.de/myim/imagebox_yt.png");
+		}
+
+		#box_yt p{
+			margin: 0; 
+			padding: 20px;
+			color: #fff;
+			background-color: rgba(0,0,0,.6);
+		}
+
+		#box_dumpster{
+			width: 100%;
+			margin: 20px auto;
+			padding-top: 30%;
+			border: 1px solid #ccc;
+			background-image: url("http://alex-cio.de/myim/containern.png");
+			background-size: contain;
+			background-position: 50% top;
+			background-repeat: no-repeat;
+		}
+
+		#box_dumpster p{
+			margin: 0;
+			padding: 20px;
+			color: #fff;
+			background-color: rgba(0,0,0,.6);
+		}
+
+		#box_local{
+			width: 100%;
+			margin: 0 auto;
+			padding-top: 25%;
+			border: 1px solid #ccc;
+			background-image: url("http://alex-cio.de/myim/jumbo_bg_local.png");
+			background-size: contain;
+			background-position: 50% top;
+			background-repeat: no-repeat;
+		}
+
+		#box_local p{
+			margin: 0;
+			padding: 20px;
+			color: #fff;
+			background-color: rgba(0,0,0,.6);
+		}
+
+		#colorbox1{			
+			background-color: #d76f8b;
+			color: #fff;
+		}
+
+		#colorbox2{			
+			background-color: #c3d4e5;
+			margin: 20px auto;
+		}
+
+		#colorbox3{			
+			background-color: #c79f8b;
+		}
+
+		#colorbox4{			
+			background-color: #f40340;
 		}
 
 		#appDescription{
@@ -385,90 +457,62 @@
 								<br>
 								
 
-								<a href="https://www.youtube.com/channel/UCvrSVQRl6OE6cw0qu20UuiA/containern.alexandru-ciocea.de" 
-							       rel="me"
-							       target="_blank" >
-								<div class="jumbotron" id="paletteGreenLight">
-								    <div class="container">
-								    
-								        <h1>
-								        	<font color="#e52d27">
-								        		Me on Youtube
-								        	</font>
-								        </h1>
-									    
-									    <p>
-									    	<font color="white">
-									    		Next to my work I create Videos that I pusblish on Youtube. I am mostly focused on creating creative stuff by combining different activities.
+								<div class="row">
+
+									<div class="col-sm-8">
+										<div id="box_yt">
+
+											<p>
+												Next to my work I create Videos that I pusblish on Youtube. I am mostly focused on creating creative stuff by combining different activities. Leave me a comment or subscribe to my channel to support me! 
 									    		<br>
 									    		<strong>#FilmMaking</strong>
-									    	</font>									    
-									    </p>
-									    
-									    <img  src="http://alex-cio.de/myim/jumbo_bg_alapse.png" #
-									    	  height="100%" 
-									    	  width="100%" >
-									    </p>
+									    		<strong>#Creativity</strong>
+									    		<strong>#Perspectives</strong>
+									    		<a  href="https://www.youtube.com/channel/UCvrSVQRl6OE6cw0qu20UuiA/containern.alexandru-ciocea.de"
+									    			type="button" 
+									    		 	class="btn btn-info" >GoTo my Channel</a>
+											</p>
+										</div>
+									</div>
 
-								  </div>
+									<div class="col-sm-4" id="colorbox1">
+										<h2>FOLLOW</h2>
+										<h3>ME</h3>
+									</div>
 								</div>
-								</a>
 
-								<a href="http://containern.org" >
-								<div class="jumbotron" id="paletteOrange">
-								    <div class="container">
-								    
-								        <h1>
-								        	<font color="white">
-								        		Containern.org
-								        	</font>
-								        </h1>
-									    
-									    <p>
-									    	<font color="white">
-									    		Ein Blog auf dem ich in regelmäßigen Abständen von meinen Erfahrungen beim Containern berichte. <br>
+								<div class="row">
+								
+									<div class="col-sm-8 col-sm-offset-4">
+										<div id="box_dumpster">
+											<p>
+												Ein Blog auf dem ich in regelmäßigen Abständen von meinen Erfahrungen beim Containern berichte. <br>
 									    		<strong>#Dumpstern #DumpsterDiving</strong>
-									    	</font>
-									    </p>
-									    
-
-									    <img  src="http://alex-cio.de/myim/containern.png" 
-									          height="100%" 
-									          width="100%" >
-									    
-									    </p>
-
-								  </div>
+									    		<a  href="http://containern.org"
+									    			type="button" 
+									    		 	class="btn btn-info" >Check my latest tour
+									    		</a>
+									    	</p>
+										</div>
+									</div>
 								</div>
-								</a>
 
-								<a href="https://www.google.com/maps/contrib/104493504020872294219" >
-								<div class="jumbotron" id="paletteGreen">
-								    <div class="container">
-								    
-								        <h1>
-								        	<font color="white">
-								        		I am a Google Local
-								        	</font>
-								        </h1>
-									    
-									    <p>
-									    	<font color="white">
-									    		I take images of places that are missing on Google Maps. You want to know which places I already covered? Visit my Google Local Profile!
+								<div class="row">
+									<div class="col-sm-8">
+										<div id="box_local">
+											<p>
+												I take images of places that are missing on Google Maps. You want to know which places I already covered? Visit my Google Local Profile!
 									    		<br>
 									    		<strong>#Photography</strong>
-									    	</font>
-									    </p>
-									    
-									    	<img  src="http://alex-cio.de/myim/jumbo_bg_local.png" 
-									          	  height="100%" 
-									              width="100%" >
-									    </p>
 
-								  </div>
+									    		<a  href="https://www.google.com/maps/contrib/104493504020872294219"
+									    			type="button" 
+									    		 	class="btn btn-info" >Check my latest tour
+									    		</a>
+									    	</p>
+										</div>
+									</div>
 								</div>
-								</a>
-
 							<!-- </div> -->
 						</div><!-- container home -->
 						<br>
