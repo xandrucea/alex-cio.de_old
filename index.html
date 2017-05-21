@@ -51,6 +51,21 @@
 			white-space: nowrap;
 		}
 
+		/* https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
+		.videoWrapper {
+			position: relative;
+			padding-bottom: 56.25%; /* 16:9 */
+			padding-top: 25px;
+			height: 0;
+		}
+		.videoWrapper iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+
 		#box_yt{
 			width: 100%;
 			margin: 0 auto;
@@ -180,6 +195,7 @@
 		}
 
 
+
 		</style>
 
 	</head>
@@ -195,43 +211,48 @@
 					
 					<div class="row">
 						<div class="col-sm-5 col-xs-4">
-							<a href="http://alex-cio.de">
-							<img src="http://alex-cio.de/myim/alexcio.png" 
-							 	 width=100px
-							 	 height=100px 
-							 	 class="img-circle" />
-							</a>
+							<div class="h-card">
+								<a href="http://alex-cio.de"
+								   rel="me">
+								<img src="http://alex-cio.de/myim/alexcio.png" 
+								 	 width=100px
+								 	 height=100px 
+								 	 class="img-circle u-photo" />
+								</a>
 
-							<br><br>
-							
-							<p >
-								<strong>
-									<span class="vcard">
-										<ul style="list-style-type:none; padding:0;">
-											<li>
-												<span class="fn">
-													Alex Ciocea
-												</span>
-											</li>
-											<li>
-												<a class="email" href="mailto:ciocea@posteo.de">
-													ciocea@posteo.de
-												</a>
-											</li>
-										</ul>
-										
-										</ul>
-										
-										<ul class="adr"
-											style="list-style-type:none; padding: 0;">
+								<br><br>
+								
+								<!-- validating hCard http://hcard.geekhood.net/?url=http%3A%2F%2Falex-cio.de%2F#result -->
+								<p >
+									<strong>
+										<span class="vcard">
+											<ul style="list-style-type:none; padding:0;">
+												<li>
+													<span class="fn">
+														Alex Ciocea
+													</span>
+												</li>
+												<li>
+													<a class="u-email email" 
+													   href="mailto:ciocea@posteo.de"
+													   rel="me">
+														ciocea@posteo.de
+													</a>
+												</li>
+											</ul>
+											
+											</ul>
+											
+											<ul class="adr"
+												style="list-style-type:none; padding: 0;">
 
-											<li class="region">Nuremberg</li>
-											<li class="country-name">Germany</li>
-										</ul>
-									</span>
-								</strong>
-							</p>
-						
+												<li class="region">Nuremberg</li>
+												<li class="country-name">Germany</li>
+											</ul>
+										</span>
+									</strong>
+								</p>
+							</div>
 						<span class="label label-primary">Game Developer</span>
 						<br>		
 						<span class="label label-danger">Social Media Geek</span>
@@ -624,7 +645,9 @@
 						<br>
 
 						<div class="row">
-							<div class="col-xs-11">
+							<div class="col-xs-11
+										col-sm-8
+										col-md-6">
 								<h2>The IndieWebCamp 2017</h2>
 
 								<p>
@@ -634,10 +657,13 @@
 									This is me working on my own website on the second day of the IndieWebCamp and trying to setup different types of microformats as well as preparing my page to include a posting section where I can implement webmentions in the future too!
 								</p>
 
-
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/ed8mjPwq40k" frameborder="0" allowfullscreen></iframe>
-
-
+								<div class="videoWrapper">
+									<iframe width="560" 
+											height="315" 
+											src="https://www.youtube.com/embed/ed8mjPwq40k" 
+											frameborder="0" 
+											allowfullscreen></iframe>
+								</div>
 							</div>
 						</div>
 
@@ -650,7 +676,7 @@
 								<hr>
 
 								<img src="http://alex-cio.de/myim/blogposts/17-03-21 - youtube_header.png" 
-									 width="90%"/>
+									 width="100%"/>
 										
 								<p>
 									I am an app developer, social media geek and since 6 months I would also call myself a YouTuber. Not a big or famous one, but I already collected some experiences on the process of creating a movie and publishing it, while trying to share it with my friends and people I meet and I would like to share these things with you because I feel there are just a few people writing about it.
@@ -660,7 +686,7 @@
 									By the moment I write these lines, I earned exactly $0.06 in total. Here is an overview of the revenue analytics of the last 6 months
 								</p>
 									<img src="http://alex-cio.de/myim/blogposts/17-03-21 - youtube_stats.png"
-										 width="90%">
+										 width="100%">
 
 								<p>
 									Even this is just a very small amount, I already put a lot of work and effort into it. I already spent many hours recording footage that had to be edited for hours or days. To be sure, I spent several months on this subject full time to understand the basics of film making and the publishing on YouTube.
@@ -681,7 +707,13 @@
 									After some time I came up with the idea of creating movies that show a process of something that I create. I wanted to see a fast progress because it is a great feedback for me at the same time. This was why I started to crochet a scarf in the first movie. I called it the #CrochetingChallenge and I recorded everything from start to the end, about 3 hours standing in the park and crocheting and the result can be seen here
 								</p>
 
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/iF2BtWptY64" frameborder="0" allowfullscreen></iframe>
+								<div class="videoWrapper">
+									<iframe width="560" 
+											height="315" 
+											src="https://www.youtube.com/embed/iF2BtWptY64" 
+											frameborder="0" 
+											allowfullscreen></iframe>
+								</div>
 
 								<br>
 								<p>
@@ -704,7 +736,14 @@
 								<p>
 									One video that I would recommend to everybody who never got into film making or already started with it, is the Guide to Filmmaking
 								</p>
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/nLSUrTxquyE" frameborder="0" allowfullscreen></iframe>
+
+								<div class="videoWrapper">
+									<iframe width="560" 
+											height="315" 
+											src="https://www.youtube.com/embed/nLSUrTxquyE" 
+											frameborder="0" 
+											allowfullscreen></iframe>
+								</div>
 
 								<h3>How much time I spent in the last 6 Months</h3>
 								<p>
@@ -732,7 +771,13 @@
 
 								</p>
 
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/NHOXoF38iP0" frameborder="0" allowfullscreen></iframe>
+								<div class="videoWrapper">
+									<iframe width="560" 
+											height="315" 
+											src="https://www.youtube.com/embed/NHOXoF38iP0" 
+											frameborder="0" 
+											allowfullscreen></iframe>
+								</div>
 
 								<h3>Where I go from here</h3>
 								<p>
@@ -895,8 +940,8 @@
 								
 								<!-- row facts block -->
 								<div class="row">
-									
-									<!-- Facts block -->
+
+										<!-- Facts block -->
 									<div class="col-xs-12">
 						 				<br>
 						 				<h3>Some Facts</h3>
@@ -1001,7 +1046,7 @@
 								 					Social Media from different perspectives
 								 				</h6>
 								 				
-								 				<span class="reviewer vcard">
+								 				<span class="reviewer">
 								 					Reviewer:
 								 					<span class="fn">
 								 						Alex Ciocea
@@ -1053,12 +1098,19 @@
 					<div class="row">
 						<div class="col-xs-12 text-center">
 						<p>
-							<a href="http://alex-cio.de/contact.html">
+							<a href="http://alex-cio.de/contact.html"
+							   target="_blank">
 								<font color="white">Impressum / Contact</font>
 							</a>
-							<font color="white">---</font>
-							<a href="http://alex-cio.de/mywebarchive.html">
+							<font color="white">&nbsp---&nbsp</font>
+							<a href="http://alex-cio.de/mywebarchive.html"
+							   target="_blank">
 								<font color="white">Old Website</font>
+							</a>
+							<font color="white">&nbsp---&nbsp</font>
+							<a href="https://github.com/xandrucea/alex-cio.de/commits/master"
+							   target="_blank">
+								<font color="white">Last Changes (Commits)</font>
 							</a>
 						</p>
 						</div>
