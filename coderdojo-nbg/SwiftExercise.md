@@ -19,7 +19,7 @@ Um diesen nach dem Lesen wieder zu verlassen, füge einen weiteren Button in den
 Schaue dir die bereits vorhandenen Code Snippets von xCode an.
 Erstelle ein weiteres Snippet von etwas, dass du bisher am meisten verwendet hast.
 
-<img src="https://github.com/xandrucea/alex-cio.de/blob/master/coderdojo-nbg/ferbet/swift_2.png" width="400" />
+<img src="https://github.com/xandrucea/alex-cio.de/blob/master/coderdojo-nbg/ferbet/swift_3.png" width="400" />
 
 **4. App Developer Online**
 
@@ -28,3 +28,9 @@ Apple bietet online sehr viele Resourcen die einem ermöglichen neues zu lernen 
   - <a href="https://developer.apple.com/library/content/navigation/index.html#topic=Sample+Code&section=Resource+Types">Hier findet man viele Projekte</a> die ein bestimmtes Anwendungsbeispiel zeigen. So kann man Dinge selber nachbauen
   
 Suche dir jeweils ein Thema heraus das dich interessiert. Mach dir einige Notizen.
+
+**5. Beobachte die Resourcen deines iPhones**
+ 
+ Nach dem man etwas programmiert hat, ist es wichtig zu beobachten ob die Änderungen sich eventuell negativ auf die Anwendung auf dem Smartphone auswirken. Wird immer mehr Leistung gebraucht? Hat man vielleicht Funktionen aufgerufen die im Hintergrund unnötig laufen? Schau hier von Zeit zu Zeit wieder herein.
+
+<img src="https://github.com/xandrucea/alex-cio.de/blob/master/coderdojo-nbg/ferbet/swift_4.png" width="400" />
