@@ -30,3 +30,4 @@ Erstellt ein Skript namens <strong>ColliderController</strong> und fügt es zu e
 
 
 <img src="https://github.com/xandrucea/alex-cio.de/blob/master/coderdojo-nbg/ferbet/unity_4.png width=400 />
+
