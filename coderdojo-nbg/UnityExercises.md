@@ -24,10 +24,16 @@ Lade dir etwas aus den Standard Assets nach und schau in deinem Projektordner zu
 Der <strong>Box Collider</strong> hilft zu erkennen, ob Gegenstände sich gegenseitig berühren. Dadurch kann man bestimmte Funktionen auslösen wie es in vielen Spielen der Fall ist.
 Unter <a href="https://docs.unity3d.com/ScriptReference/Collider.html">Collider Dokumentation</a> könnt ihr mehr zum Collider finden. 
 
-<img src="https://github.com/xandrucea/alex-cio.de/blob/master/coderdojo-nbg/ferbet/unity_3.png width="400" />
+<img src="https://github.com/xandrucea/alex-cio.de/blob/master/coderdojo-nbg/ferbet/unity_3.png" width="400" />
 
 Erstellt ein Skript namens <strong>ColliderController</strong> und fügt es zu einem Object hinzu. Versucht den Unterschied zwischen den verschiedenen Funktionen zu finden in dem ihr sie in das Skript fügt und eine Ausgabe macht.
 
 
-<img src="https://github.com/xandrucea/alex-cio.de/blob/master/coderdojo-nbg/ferbet/unity_4.png width=400 />
+<img src="https://github.com/xandrucea/alex-cio.de/blob/master/coderdojo-nbg/ferbet/unity_4.png" width=400 />
 
+
+**4. Rotierende Elemente**
+
+Erstelle ein GameObject vom Typ Cube und füge diesem das Skript namens <strong>Spin</strong> hinzu.
+Schau dir folgende Seite an und versuche deinen Cube auch zum drehen zu bringen
+<a href="https://unity3d.com/de/learn/tutorials/topics/scripting/spinning-cube">The Spinning Cube</a>
