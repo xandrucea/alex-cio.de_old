@@ -33,4 +33,4 @@ Suche dir jeweils ein Thema heraus das dich interessiert. Mach dir einige Notize
  
  Nach dem man etwas programmiert hat, ist es wichtig zu beobachten ob die Änderungen sich eventuell negativ auf die Anwendung auf dem Smartphone auswirken. Wird immer mehr Leistung gebraucht? Hat man vielleicht Funktionen aufgerufen die im Hintergrund unnötig laufen? Schau hier von Zeit zu Zeit wieder herein.
 
-<img src="https://github.com/xandrucea/alex-cio.de/blob/master/coderdojo-nbg/ferbet/swift_4.png" width="400" />
+<img src="https://github.com/xandrucea/alex-cio.de/blob/master/coderdojo-nbg/ferbet/swift4.png" width="400" />
