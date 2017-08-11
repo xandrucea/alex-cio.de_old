@@ -19,7 +19,7 @@ Um diesen nach dem Lesen wieder zu verlassen, füge einen weiteren Button in den
 Schaue dir die bereits vorhandenen Code Snippets von xCode an.
 Erstelle ein weiteres Snippet von etwas, dass du bisher am meisten verwendet hast.
 
-<img src="https://github.com/xandrucea/alex-cio.de/blob/master/coderdojo-nbg/ferbet/swift_2.png" width="400" />
+<img src="https://github.com/xandrucea/alex-cio.de/blob/master/coderdojo-nbg/ferbet/swift_3.png" width="400" />
 
 **4. App Developer Online**
 
