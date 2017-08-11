@@ -16,4 +16,4 @@ Wenn du dir die Dinge genauer angesehen hast, besuche den Asset Store und lade d
 
 Lade dir etwas aus den Standard Assets nach und schau in deinem Projektordner zu finden ist. Versuche es mit den Characters zuerst, dort befindet sich ein GameObject namens „FPSController“. Wenn du ein 3D Model für einen Character heruntergeladen hast, kannst du diesen vielleicht mit dem FPSController
 
-![](https://github.com/xandrucea/alex-cio.de/blob/master/coderdojo-nbg/ferbet/unity_2.png)
+![](https://github.com/xandrucea/alex-cio.de/blob/master/coderdojo-nbg/ferbet/unity_2.png =24x48)
